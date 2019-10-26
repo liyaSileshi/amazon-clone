@@ -15,7 +15,7 @@
 
 <body>
    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="display: flex; justify-content: space-between;">
             <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -40,18 +40,20 @@
                   </div> -->
          
          <a class="navbar-brand" href="#">amazon</a>
-        <div class="navbar-nav">
           
           
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" style="width: 400px;">
             <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
           </form>
 
-          <a class="nav-item nav-link active pl-5" href="#">accounts & lists <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link pl-5" href="#">orders</a>
-          <a class="nav-item nav-link pl-5" href="#">prime</a>
-          <a class="nav-item nav-link pl-5" href="#">cart</a>
+          <section class="right-nav-items" style="display: flex;">
+              
+                        <a class="nav-item nav-link active pl-5" href="#">accounts & lists <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link pl-5" href="#">orders</a>
+                        <a class="nav-item nav-link pl-5" href="#">prime</a>
+                        <a class="nav-item nav-link pl-5" href="#">cart</a>
+          </section>
         </div>    
          </nav>
 
@@ -71,16 +73,21 @@
                 <div class="row">
                    
                     <div class="card col-lg-3">
+                        <a href='#'> 
                         <h3>Safe</h3>
                         <img src="https://via.placeholder.com/150" class="card-img-top">
                         <p class="lead">lorem ipsum</p>
+                    </a>
                     </div>
                     <div class="card col-lg-3">
+                        <a href='#'>
                         <h3>Healthy</h3>
                         <img src="https://via.placeholder.com/150" class="card-img-top">
                         <p class="lead">lorem ipsum</p>
+                        </a>
                     </div>
                     <div class="card col-lg-3">
+                        
                         <h3>Fun</h3>
                         <img src="https://via.placeholder.com/150" class="card-img-top">
                         <p class="lead">lorem ipsum</p>
