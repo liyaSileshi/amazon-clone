@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,237 +15,264 @@
 </head>
 
 <body>
-   <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="display: flex; justify-content: space-between;">
-           
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="display: flex; justify-content: space-between;">
 
 
-         
-         <a class="navbar-brand" href="#">
-            <img src="amazon_PNG11.png" width="110" height="40" alt='amazon_icon' style="background-blend-mode: multiply;">
+
+
+    <a class="navbar-brand" href="#">
+      <img src="amazon_PNG11.png" width="110" height="40" alt='amazon_icon' style="background-blend-mode: multiply;">
+    </a>
+
+
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" style="width: 700px;">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+    <section class="right-nav-items" style="display: flex;">
+
+      <a class="nav-item nav-link active pl-1" href="#">accounts & lists <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link pl-1" href="#">orders</a>
+      <a class="nav-item nav-link pl-1" href="#">prime</a>
+      <a class="nav-item nav-link pl-1" href="#">cart</a>
+    </section>
+    </div>
+  </nav>
+
+
+  <!-- HERO -->
+  <div class="jumbotron text-center">
+    <div class='hero-background-img'>
+      <h1>"Alexa, play music."</h1>
+      <p class="lead">echo dot 99</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+
+
+    <!-- main -->
+    <div class="container-fluid mb-5 mt-5">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100"
+              src="https://images-na.ssl-images-amazon.com/images/G/01/LEO/LXCM/2019/OCT/FREE_RETURNS/free-returns-GW-102519_2x._CB448870703_.jpg"
+              alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100"
+              src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2019/EDITORIAL/FALL2/HEROES/DH_PW_W_FALL_FLATS_2x._CB452183491_.jpg"
+              alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100"
+              src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/2019/TV/PVD2766/MOLV_S1_01137_GWBleedingHero_3000x1200_POST_Final_en_US_PVD2766_Op1_B._CB450290322_.jpg"
+              alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="container-fluid mb-5 mt-5">
+
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card col-md-12" style="padding: 5px;">
+            <a href='#'>
+              <h3>Hi, User</h3>
+              <img src="https://via.placeholder.com/150" class="card-img-top">
+              <p class="lead">lorem ipsum</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3" >
+          <div class="card col-md-12" style="padding: 5px;">
+            <a href='#'>
+              <h3>Deal of the day</h3>
+              <img src="https://images-na.ssl-images-amazon.com/images/I/61W9m+UdsNL._SL520_.jpg" class="card-img-top">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card col-md-12" style="padding: 5px;">
+              <a href='#'>
+                  <h3>Try fall handbags</h3>
+                  <img src="https://www.pennypincherfashion.com/wp-content/uploads/2018/09/Fall-Handbags-1.png"
+                    class="card-img-top">
+                </a>
+          </div>
+        </div>
+        <div class="card col-lg-3">
+          <div class="col-md-12" style="padding: 5px;">
+              <a href='#'>
+                  <h3>Try Prime wardrobe</h3>
+                  <img
+                    src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2019/EDITORIAL/FALL2/TOPCARDS/TC_PW_W_FALLFASHION_2x._SY520_CB452182983_.jpg"
+                    class="card-img-top">
+                </a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="card col-lg-4">
+          <a href='#'>
+            <h3>Extraordinary finds</h3>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/G/01/watchandshop/2019/GW/10/02/desktop-home2x._SY520_CB451011604_.jpg"
+              class="card-img-top">
+
           </a>
-          
-          
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" style="width: 700px;">
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-          </form>
-
-          <section class="right-nav-items" style="display: flex;">
-              
-                        <a class="nav-item nav-link active pl-1" href="#">accounts & lists <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link pl-1" href="#">orders</a>
-                        <a class="nav-item nav-link pl-1" href="#">prime</a>
-                        <a class="nav-item nav-link pl-1" href="#">cart</a>
-          </section>
-        </div>    
-         </nav>
-
-
-<!-- HERO --> 
-<div class="jumbotron text-center">
-        <div class='hero-background-img'>
-          <h1>"Alexa, play music."</h1>
-          <p class="lead">echo dot 99</p>
-          <a href="#" class="btn btn-primary">Learn More</a>
         </div>
-       
-        
-        <!-- main -->
-        <div class="container mb-5 mt-5">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="https://images-na.ssl-images-amazon.com/images/G/01/LEO/LXCM/2019/OCT/FREE_RETURNS/free-returns-GW-102519_2x._CB448870703_.jpg" alt="First slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2019/EDITORIAL/FALL2/HEROES/DH_PW_W_FALL_FLATS_2x._CB452183491_.jpg" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/2019/TV/PVD2766/MOLV_S1_01137_GWBleedingHero_3000x1200_POST_Final_en_US_PVD2766_Op1_B._CB450290322_.jpg" alt="Third slide">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+        <div class="card col-lg-4">
+          <a href='#'>
+            <h3>Budget home decor</h3>
+            <img src="https://s7d4.scene7.com/is/image/roomandboard/morrison_337957_18e1_g?scl=1&size=804,1000&$mobile$"
+              class="card-img-top">
 
-
+          </a>
         </div>
-            
-        
-        
-        
+        <div class="card col-lg-4">
+          <a href='#'>
+            <h3>Renewed electronics</h3>
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2019/img/Certified_Refurbished/XCM_Manual_1161174_renewed_card_resize_520x520_Certified_Refurbished_XCM_Manual_1161174_us_certified_refurbished_renewed_card_resize_520x520_1550730012_jpg._SY520_CB454883446_.jpg"
+              class="card-img-top">
 
-
-      
-        
-            <div class="container mb-5 mt-5">
-                
-                <div class="row">
-                   
-                    <div class="card col-lg-3" style="padding: 5px;">
-                        <a href='#'> 
-                        <h3>Hi, User</h3>
-                        <img src="https://via.placeholder.com/150" class="card-img-top">
-                        <p class="lead">lorem ipsum</p>
-                    </a>
-                    </div>
-                    <div class="card col-lg-3" style="padding: 5px;"> 
-                        <a href='#'>
-                        <h3>Deal of the day</h3>
-                        <img src="https://images-na.ssl-images-amazon.com/images/I/61W9m+UdsNL._SL520_.jpg" class="card-img-top">
-                        
-                        </a>
-                    </div>
-                    <div class="card col-lg-3" style="padding: 5px;">
-                        <a href='#'>
-                        <h3>Try fall handbags</h3>
-                        <img src="https://www.pennypincherfashion.com/wp-content/uploads/2018/09/Fall-Handbags-1.png" class="card-img-top">
-                        
-                        </a>
-                    </div>
-                    <div class="card col-lg-3" style="padding: 5px;">
-                        <a href='#'>
-                        <h3>Try Prime wardrobe</h3>
-                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2019/EDITORIAL/FALL2/TOPCARDS/TC_PW_W_FALLFASHION_2x._SY520_CB452182983_.jpg" class="card-img-top">
-                        
-                        </a>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                        <div class="card col-lg-4">
-                            <a href='#'>
-                            <h3>Extraordinary finds</h3>
-                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/watchandshop/2019/GW/10/02/desktop-home2x._SY520_CB451011604_.jpg" class="card-img-top">
-                            
-                            </a>
-                        </div>
-                        <div class="card col-lg-4">
-                            <a href='#'>
-                            <h3>Budget home decor</h3>
-                            <img src="https://s7d4.scene7.com/is/image/roomandboard/morrison_337957_18e1_g?scl=1&size=804,1000&$mobile$" class="card-img-top">
-                           
-                            </a>
-                        </div>
-                        <div class="card col-lg-4">
-                            <a href='#'>
-                            <h3>Renewed electronics</h3>
-                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2019/img/Certified_Refurbished/XCM_Manual_1161174_renewed_card_resize_520x520_Certified_Refurbished_XCM_Manual_1161174_us_certified_refurbished_renewed_card_resize_520x520_1550730012_jpg._SY520_CB454883446_.jpg" class="card-img-top">
-                            
-                            </a>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                   
-                            <div class="card col-lg-12">
-                                <a href='#'>
-                                
-                                <img src="https://images-na.ssl-images-amazon.com/images/G/01/ape/static/fallback/US_CENTER_PROMO_BACKUP._CB1529701382_.jpg" class="card-img-top">
-                               
-                                </a>
-                            </div>
-                           
-                        </div>
-
-            </div>
-        
-            
-        
-        
-    </div>
-
-<!-- reccomendation -->
-
-<div class="container mb-5 mt-5">
-        <h4>Reccomended based on your shopping history</h4>
-        <div class="row">
-          <div class="col-lg-3">
-            <a href='#'>
-           
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71gtE+WlZYL._AC_SY400_.jpg"  class="img-fluid rounded">
-            </a>
-          </div>
-          <div class="col-lg-3">
-            <a href='#'>
-            
-            <img src="https://images-na.ssl-images-amazon.com/images/I/8191fRNEvSL._AC_SY400_.jpg" class="img-fluid rounded">
-            </a>
-          </div>
-          <div class="col-lg-3">
-            <a href='#'>
-           
-            <img src="https://images-na.ssl-images-amazon.com/images/I/612QnDQ8LrL._AC_SY400_.jpg"  class="img-fluid rounded">
-            </a>
-          </div>
-          <div class="col-lg-3">
-                <a href='#'>
-                
-                <img src="https://images-na.ssl-images-amazon.com/images/I/417d5WlbQOL._AC_SY480_.jpg" class="img-fluid rounded">
-                </a>
-         </div>
+          </a>
         </div>
       </div>
+      <br>
+      <div class="row">
 
+        <div class="card col-lg-12">
+          <a href='#'>
 
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/G/01/ape/static/fallback/US_CENTER_PROMO_BACKUP._CB1529701382_.jpg"
+              class="card-img-top">
 
+          </a>
+        </div>
 
-<!-- first footer -->
- 
-    <div class="p-5 text-white mt-5" style="height: 400px; background-color: #232d3b;">
-        <!-- <div class="container mb-5 mt-5"> -->
-            <!-- <h4>Reccomended based on your shopping history</h4> -->
-            <div class="row">
-              <div class="col-lg-3">
-                
-               <p>Get to know us</p>
-                <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/71gtE+WlZYL._AC_SY400_.jpg" class="card-img-top"> -->
-                <a href='#'></a>
-       
-              </div>
-              <div class="col-lg-3">
-                
-                <p>Make money with us</p>
-                <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/8191fRNEvSL._AC_SY400_.jpg" class="card-img-top"> -->
-                <a href='#'></a>
-              </div>
-              <div class="col-lg-3">
-                
-                <p>Amazon Payment Products</p>
-                <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/612QnDQ8LrL._AC_SY400_.jpg" class="card-img-top"> -->
-                <a href='#'></a>
-              </div>
-              <div class="col-lg-3">
-                    
-                    <p>Let Us Help You</p>
-                    <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/417d5WlbQOL._AC_SY480_.jpg" class="card-img-top"> -->
-                    <a href='#'></a>
-             </div>
-            </div>
-          <!-- </div> -->
-    
-    
-    
+      </div>
+
     </div>
 
-<!-- second footer -->
-<div class=" p-5 text-white" style="height: 400px; background-color: #131921;">
-        <div class="mb-2">
-          &copy; Amazon music
+
+
+
+  </div>
+
+  <!-- reccomendation -->
+
+  <div class="container mb-5 mt-5">
+    <h4>Reccomended based on your shopping history</h4>
+    <div class="row">
+      <div class="card col-lg-3">
+        <a href='#'>
+
+          <img src="https://images-na.ssl-images-amazon.com/images/I/71gtE+WlZYL._AC_SY400_.jpg"
+            class="img-fluid rounded">
+        </a>
+      </div>
+      <div class="card col-lg-3">
+        <a href='#'>
+
+          <img src="https://images-na.ssl-images-amazon.com/images/I/8191fRNEvSL._AC_SY400_.jpg"
+            class="img-fluid rounded">
+        </a>
+      </div>
+      <div class="card col-lg-3">
+        <a href='#'>
+
+          <img src="https://images-na.ssl-images-amazon.com/images/I/612QnDQ8LrL._AC_SY400_.jpg"
+            class="img-fluid rounded">
+        </a>
+      </div>
+      <div class="card col-lg-3">
+        <a href='#'>
+
+          <img src="https://images-na.ssl-images-amazon.com/images/I/417d5WlbQOL._AC_SY480_.jpg"
+            class="img-fluid rounded">
+        </a>
       </div>
     </div>
+  </div>
+
+
+
+
+  <!-- first footer -->
+
+  <div class="p-5 text-white mt-5" style="height: 400px; background-color: #232d3b;">
+    <!-- <div class="container mb-5 mt-5"> -->
+    <!-- <h4>Reccomended based on your shopping history</h4> -->
+    <div class="row">
+      <div class="col-lg-3">
+
+        <p>Get to know us</p>
+        <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/71gtE+WlZYL._AC_SY400_.jpg" class="card-img-top"> -->
+        <a href='#'></a>
+
+      </div>
+      <div class="col-lg-3">
+
+        <p>Make money with us</p>
+        <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/8191fRNEvSL._AC_SY400_.jpg" class="card-img-top"> -->
+        <a href='#'></a>
+      </div>
+      <div class="col-lg-3">
+
+        <p>Amazon Payment Products</p>
+        <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/612QnDQ8LrL._AC_SY400_.jpg" class="card-img-top"> -->
+        <a href='#'></a>
+      </div>
+      <div class="col-lg-3">
+
+        <p>Let Us Help You</p>
+        <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/417d5WlbQOL._AC_SY480_.jpg" class="card-img-top"> -->
+        <a href='#'></a>
+      </div>
+    </div>
+    <!-- </div> -->
+
+
+
+  </div>
+
+  <!-- second footer -->
+  <div class=" p-5 text-white" style="height: 400px; background-color: #131921;">
+    <div class="mb-2">
+      &copy; Amazon music
+    </div>
+  </div>
 </body>
 
 
 
 <!-- js -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
